@@ -1,0 +1,143 @@
+ 
+.tools-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+ 
+  .tools-container h2 {
+   color: #ffffff;
+  padding-bottom: 15px;
+   width: 100%;
+  
+  }
+
+  
+  .tabs-responsive-wrapper {
+    display: flex;
+    gap: 2rem;
+    border-radius: 12px;
+ 
+  }
+  
+  .tabs-column {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+
+  }
+  
+  .tab-btn {
+    width: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: none;
+    border: none;
+    text-align: left;
+    color: #636e72;
+    cursor: pointer;
+    transition: all 0.3s;
+    border: 1px solid #6481ae;
+    background-color: #2d333e;
+    border-radius: 10px;
+
+  }
+   
+/*   
+  .tab-btn.active {
+  
+  }
+   */
+
+  .tab-btn-icon{
+    color: #1b73e8;
+    font-size: 1.8rem;
+     width: 50px;
+}
+ 
+.tab-btn-h3{
+    color: #1b73e8;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+  .tab-btn-p{
+   color: #ffffff;
+
+  }
+  .tab-content {
+    flex: 1;
+    padding: 2rem;
+    background-color: #202124;
+    color: #ffffff;
+  }
+
+ 
+.content-img{
+  width: 100%;
+}
+ 
+.content-p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  line-height: 24px;
+  padding: 10px;
+}
+ 
+  @media (max-width: 768px) {
+    .tabs-responsive-wrapper {
+      flex-direction: column;
+      width: 100%;
+    
+    }
+    
+    
+      .tabs-column {
+        flex-direction: column;
+        align-items: center; 
+        display: inline;
+       width: 100%;
+      }
+    
+      .tab-btn {
+        width: 100%; 
+
+      }
+     
+
+    .tabs-column {
+      flex-direction: row;
+      overflow-y: auto;
+      border-right: none;
+      border-bottom: 2px solid #eee;
+      min-width: auto;
+    }
+    
+    .tab-btn {
+      flex-shrink: 0;
+      white-space: nowrap;
+      border-right: none !important;
+    }
+    
+    .tab-btn.active {
+      border-bottom: 3px solid #0984e3;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tab-btn {
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    
+    .tab-icon {
+      font-size: 1rem;
+    }
+
+
+   
+  }

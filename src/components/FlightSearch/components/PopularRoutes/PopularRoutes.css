@@ -1,0 +1,37 @@
+.routes-container {
+    max-width: 1200px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+  }
+  
+  .section-heading {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  
+  .routes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* تحسين الاستجابة */
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .route-title {
+    font-size: 1.1rem;
+    margin: 0;
+    line-height: 1.4;
+    text-align: center;
+  }
+  
+  .route-link {
+    color: #0984e3;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .route-link:hover {
+    color: #065f9a;
+    text-decoration: underline;
+  }

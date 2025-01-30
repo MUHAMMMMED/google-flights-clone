@@ -1,0 +1,81 @@
+ 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    background-color: #000000;
+    border-bottom: 1px solid #000000;
+   
+    width: 100%;
+    z-index: 999;  
+    height: 45px;
+    
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+  }
+  
+  .navbar-brand .icon {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+.navbar-links {
+    margin-top: 3px;
+    display: flex; 
+    gap: 20px;  
+    align-items: center; 
+    margin-left: 25px;
+    font-size: 15px;
+  }
+  
+  .navbar-links a {
+    padding: 10px 13px; 
+    text-decoration: none;  
+    border: 2px solid #3b3f42;  
+    border-radius: 50px; 
+    color: #fff;  
+    transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;  
+    direction: ltr;
+    display: flex; 
+    align-items: center;  
+    gap: 5px; 
+    font-weight: 600; 
+  }
+ 
+  .navbar-links a:hover {
+    background-color:  #394457;  
+    color: #fff;  
+  }
+  
+  .navbar-links div {
+    padding-left:2px;
+    float: left;
+  }
+   
+  .navbar-icons .icon {
+    float: left;
+    padding-right: 30px;  
+    font-size: 20px;  
+    color: #a8c7fa!important;  
+  }
+   
+  .navbar-links a.active {
+    background-color:#394457;  
+    border: none;  
+    color: #a8c7fa!important;  
+  }
+
+
+/* Hide navbar links in mobile view */
+@media (max-width: 768px) {
+    .navbar-links {
+      display: none;  /* This will hide the navbar links on mobile */
+    }
+  }

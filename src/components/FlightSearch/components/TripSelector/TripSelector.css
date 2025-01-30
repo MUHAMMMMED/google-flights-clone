@@ -1,0 +1,151 @@
+
+.trip-selector-container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+   
+  
+  }
+  
+  .selector {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    gap: 20px;
+
+  }
+  
+  .trip-type,
+  .passenger-selector,
+  .class-selector {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    background-color: #37373a;
+    color: #9aa0a6;
+ 
+  }
+  .trip-type{
+    width: 130px;
+  }
+  .passenger-selector{
+    width: 220px;
+  }
+  .class-selector {
+    width: 120px;
+ 
+  }
+  .trip-type span,
+  .passenger-selector span,
+  .class-selector span {
+    margin-right: 10px;
+  }
+  
+  .chevron-icon {
+    color: #9aa0a6;
+  }
+  
+  .user-icon {
+    margin-right: 10px;
+    color: #9aa0a6;
+  }
+  
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #303134;
+    margin-top: 5px;
+    z-index: 1000;
+     color: rgb(232, 234, 237);
+     line-height: 1.5rem;
+      font-size: 1rem;
+      letter-spacing: .00625em;
+      font-weight: 400;
+      padding: 5px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .3), 0 4px 8px 3px rgba(0, 0, 0, .15);
+ 
+  }
+  
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+ 
+  }
+  
+  .dropdown-item:last-child {
+    border-bottom: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #394457;
+  }
+  .passenger-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #303134;
+ 
+  }
+  
+  .passenger-label {
+    flex: 1;  
+    text-align: left;
+    color: #fff;
+  }
+  
+  .counter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    gap: 10px;  
+    min-width: 100px;  
+   
+  }
+  
+  .counter-icon {
+    cursor: pointer;
+    background-color: #4c4d50;
+    padding: 7px;
+    border-radius: 3px;
+    color: #fff;
+    transition: background 0.3s;
+   font-weight: 300;
+  }
+  
+  .counter-icon:hover {
+    background-color: #666;
+  }
+  
+  .counter-value {
+    min-width: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .popup-footer {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .popup-footer-button {
+    background-color: #37373a;
+    color: #88b0f1;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+  }
+  
+  .popup-footer-button:hover {
+    background-color: #394457;
+  }

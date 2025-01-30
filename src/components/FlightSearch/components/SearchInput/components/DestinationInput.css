@@ -1,0 +1,91 @@
+.destination-input-container {
+ width: 250px;  
+ float: left;
+  position: relative;
+  border:1px solid #4a4b4e ;
+ 
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #37373a;
+  cursor: pointer;
+  width: 100%;  
+  box-sizing: border-box;
+}
+
+.input-icon {
+  margin-right: 10px;
+  color: #9aa0a6;
+}
+
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+  color: #fff;
+  width:100%; 
+  box-sizing: border-box;
+}
+
+.chevron-icon {
+  margin-left: 10px;
+  color: #9aa0a6;
+}
+
+ 
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width:100%; 
+  border-radius: 8px;
+  background-color: #37373a;
+  margin-top: 5px;
+  z-index: 1000;
+  color: #fff;
+  box-sizing: border-box;
+  max-height: 300px; 
+  overflow-y: auto;  
+}
+ 
+.dropdown input {
+  width: 100%; 
+  padding: 10px;
+  border-bottom: 1px solid #555;
+  background-color: #37373a;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #444;
+}
+
+.no-matches {
+  text-align: center;
+  padding: 10px;
+  color: #bbb;
+}
+
+@media (max-width: 768px) {
+  .destination-input-container {
+    width: 46%;  
+    float: left;
+    margin: auto;
+    
+    
+   }
+   
+ }

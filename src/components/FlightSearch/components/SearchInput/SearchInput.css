@@ -1,0 +1,36 @@
+.SearchInput-container{
+    width: 600px;
+   float: left;
+ 
+}
+ 
+.swap-button {
+   float: left;
+    width: 30px;
+    height: 30px;
+    background-color: #37383a;
+    border: none;
+    border-radius: 50%;  
+    padding: 8px;  
+    font-size: 20px;  
+    color: white;  
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    /* border: 1px solid #4a4b4e; */
+    /* z-index: 2; 
+    margin-left: -13px; */
+  }
+
+
+  @media (max-width: 768px) {
+   .SearchInput-container{
+      width: 100%;
+     float: left;
+  }
+ 
+ }
+
+ 
