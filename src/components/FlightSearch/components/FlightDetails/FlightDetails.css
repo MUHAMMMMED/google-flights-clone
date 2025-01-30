@@ -40,7 +40,7 @@
     width: 100%;
   }
   
-  .card-image {
+  .flight-card-image {
     flex: 0 0 80px;
     height: 80px;
     background-color: #4CAF50;

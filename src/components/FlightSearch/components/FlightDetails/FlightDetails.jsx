@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaPlane } from 'react-icons/fa'; // أيقونة الطائرة من react-icons
+import { FaPlane } from 'react-icons/fa';
 import './FlightDetails.css';
 
 export default function FlightDetails({ flights }) {
@@ -10,7 +10,7 @@ export default function FlightDetails({ flights }) {
         {flights.data.itineraries.map((itinerary, index) => (
           <div key={index} className="itinerary-card">
             <div className="card-content">
-              <div className="card-image">
+              <div className="flight-card-image">
                 <FaPlane className="plane-icon" />
               </div>
               <div className="card-info">
