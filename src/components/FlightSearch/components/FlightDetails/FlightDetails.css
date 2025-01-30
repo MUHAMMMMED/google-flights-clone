@@ -1,0 +1,122 @@
+.flight-details-wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    min-height: 100vh;
+  }
+  
+  .title {
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .flight-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .itinerary-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding:  5px;
+    transition: transform 0.3s ease;
+    width: 100%;
+  }
+  
+  .itinerary-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .card-image {
+    flex: 0 0 80px;
+    height: 80px;
+    background-color: #4CAF50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .plane-icon {
+    color: white;
+    font-size: 40px;
+  }
+  
+  .card-info {
+    flex: 1;
+  }
+  
+  .itinerary-title {
+    color: #333;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .flight-info-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .flight-info-row p {
+    color: #555;
+    font-size: 1rem;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .flight-info-row p:last-child {
+    margin-right: 0;
+  }
+  
+  .card-info ul {
+    padding-left: 20px;
+  }
+  
+  .card-info li {
+    font-size: 1rem;
+  }
+  
+  .card-info strong {
+    color: #2d8a3d;
+  }
+  
+  @media (max-width: 768px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .itinerary-card {
+      flex-direction: column;
+      padding: 15px;
+    }
+  
+    .card-image {
+      margin-bottom: 20px;
+    }
+  
+    .flight-info-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .plane-icon {
+      font-size: 30px;
+    }
+  }
